@@ -262,10 +262,6 @@ azure-kusto-data==4.5.1
 azure-kusto-ingest==4.5.1
 coloredlogs==15.0.1
 setuptools==84.0.0
-
-# Pin cffi to 2.0.0 to avoid version mismatch with the pre-baked _cffi_backend in the base image.
-# https://github.com/home-assistant/core/issues/175832
-cffi==2.0.0
 """
 
 GENERATED_MESSAGE = (
